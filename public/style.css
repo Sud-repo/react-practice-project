@@ -11,10 +11,10 @@
     padding: 0 16px;
   }
   
-  .note-container {
+  /* .note-container {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   header {
     background-color: #f5ba13;
@@ -30,23 +30,24 @@
   }
   
   footer {
-    position: absolute;
+    position: relative;
     text-align: center;
-    bottom: 0;
-    width: 100%;
+    bottom: 0px;
+    width: 98%;
     height: 2.5rem;
   }
   
   footer p {
     color: #ccc;
+    height: 10px;
+    margin: 50px;
   }
   .note {
-
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
-    width: 240px;
+    width: 90%;
     margin: 16px;
     float: left;
   }
